@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* Employee */
+.add-employee{
+    background-image:url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+#add-employee-form{
+    background:lightgray;
+    padding: 10px 30px;
+}
+.add-employee-title-text{
+    font-size:30px;
+    border-bottom: ridge;
+}
+.add-employee-title{
+    margin-bottom: 30px;
+}
+h2{
+    text-align:center;
+    font-weight:bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.addEmployeeBtn{
+    text-align:center;
+    margin-top:30px;
+}
+
+/* Employee List Module */
+.wrapper{
+    text-align:center;
+    /* padding:50px; */
+}
+.table-dark td{
+    vertical-align: middle;
+}
